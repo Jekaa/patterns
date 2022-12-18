@@ -9,6 +9,8 @@ import java.util.concurrent.TimeUnit;
  * pool implementation is based on ConcurrentLinkedQueue from the java.util.concurrent package.
  * ConcurrentLinkedQueue is a thread-safe queue based on linked nodes.
  * Because the queue follows FIFO technique (first-in-first-out).
+ *
+ * see org.apache.commons.pool2 for more implementations
  */
 public abstract class ObjectPool<T> {
 
