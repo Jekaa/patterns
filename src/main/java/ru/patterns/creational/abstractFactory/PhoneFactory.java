@@ -1,4 +1,4 @@
-package ru.patterns.creational.abstract_factory;
+package ru.patterns.creational.abstractFactory;
 
 /**
  * Фабрика смартфонов, реализует функционал создания объектов типа Phone
