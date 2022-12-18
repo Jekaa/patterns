@@ -1,4 +1,4 @@
-package ru.patterns.creational.abstractFactory;
+package ru.patterns.creational.abstract_factory;
 
 public class Samsung implements Phone {
     @Override

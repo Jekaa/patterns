@@ -1,4 +1,4 @@
-package ru.patterns.creational.objectPool;
+package ru.patterns.creational.object_pool;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.Executors;
