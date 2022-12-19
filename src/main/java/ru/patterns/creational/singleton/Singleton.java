@@ -2,18 +2,14 @@ package ru.patterns.creational.singleton;
 
 public final class Singleton {
 
-    private static volatile Singleton instance;
+    private Singleton() {
+    }
 
-    private Singleton() {}
+    private static class SingletonHolder {
+        private static final Singleton INSTANCE = new Singleton();
+    }
 
     public static Singleton getInstance() {
-        if (instance == null) {
-            synchronized (Singleton.class) {
-                if (instance == null) {
-                    instance = new Singleton();
-                }
-            }
-        }
-        return instance;
+        return SingletonHolder.INSTANCE;
     }
 }
