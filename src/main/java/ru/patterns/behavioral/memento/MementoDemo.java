@@ -1,4 +1,4 @@
-package ru.patterns.behavioral;
+package ru.patterns.behavioral.memento;
 
 public class MementoDemo {
     public static void main(String[] args) {

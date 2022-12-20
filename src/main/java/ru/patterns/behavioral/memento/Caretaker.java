@@ -1,4 +1,4 @@
-package ru.patterns.behavioral;
+package ru.patterns.behavioral.memento;
 
 import java.util.ArrayList;
 

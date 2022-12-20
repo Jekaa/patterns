@@ -1,4 +1,4 @@
-package ru.patterns.behavioral;
+package ru.patterns.behavioral.memento;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

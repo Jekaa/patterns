@@ -1,4 +1,4 @@
-package ru.patterns.behavioral;
+package ru.patterns.behavioral.memento;
 
 /**
  * the object that knows how to save itself
